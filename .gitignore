@@ -1,0 +1,24 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Scrapy stuff:
+.scrapy
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# node and crawlee
+node_modules
+package-lock.json
+.idea
+dist
+node_modules
+storage
