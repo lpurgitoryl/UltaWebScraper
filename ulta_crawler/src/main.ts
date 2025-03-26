@@ -6,7 +6,7 @@ const crawler = new CheerioCrawler({
     
     const price = $(".ProductPricing  span:first-child")
       .text()
-      .replace(/[^0-9.]/g, "");
+      .replace(/[^0-9.]/g, ""); // good thing to add would be truncate to two decimal places
     const brand_name = $(".ProductInformation h1 a").text();
     const name = $(".ProductInformation h1 span:nth-of-type(2)").text();
     const size = $(
